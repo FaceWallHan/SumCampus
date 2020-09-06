@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/images1"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="left|bottom"
+        android:orientation="horizontal">
+        <ImageView
+            android:src="@drawable/icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/user"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:hint="账号/用户名"
+            android:background="@drawable/backt"
+            android:layout_width="250dp"
+            android:layout_height="30dp" />
+        <EditText
+            android:inputType="textPassword"
+            android:layout_margin="5dp"
+            android:id="@+id/word"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:hint="请填写密码"
+            android:background="@drawable/backt"
+            android:layout_width="250dp"
+            android:layout_height="30dp" />
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:textColor="#4e88f4"
+                android:id="@+id/return_word"
+                android:gravity="center_vertical"
+                android:text="忘记密码？"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <TextView
+                android:textColor="#4e88f4"
+                android:id="@+id/join"
+                android:gravity="center_vertical|right"
+                android:text="新用户注册"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <Button
+            android:textColor="#fff"
+            android:background="#4e88f4"
+            android:id="@+id/login"
+            android:layout_marginTop="20dp"
+            android:text="登录"
+            android:layout_margin="5dp"
+            android:layout_width="250dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/ip_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:src="@drawable/setting_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:gravity="center"
+                android:text="服务器地址"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

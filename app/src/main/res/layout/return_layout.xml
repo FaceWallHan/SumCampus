@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    android:orientation="vertical">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/backc"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/back"
+                android:src="@drawable/back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:text="找回密码"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="right"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <EditText
+            android:layout_margin="5dp"
+            android:id="@+id/user"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:background="@drawable/backt"
+            android:hint="请输入用户名:"
+            android:layout_width="250dp"
+            android:layout_height="30dp" />
+        <EditText
+            android:layout_margin="5dp"
+            android:id="@+id/email"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:background="@drawable/backt"
+            android:hint="请输入邮箱:"
+            android:layout_width="250dp"
+            android:layout_height="30dp" />
+        <EditText
+            android:inputType="number"
+            android:layout_margin="5dp"
+            android:id="@+id/re_tel"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:background="@drawable/backt"
+            android:hint="请输入手机号:"
+            android:layout_width="250dp"
+            android:layout_height="30dp" />
+        <Button
+            android:id="@+id/submit"
+            android:layout_margin="10dp"
+            android:text="找回"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

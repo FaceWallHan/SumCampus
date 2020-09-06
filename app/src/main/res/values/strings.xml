@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">阳光校园</string>
+    <string-array name="sex_list">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <string-array name="dialog">
+        <item>优秀</item>
+        <item>良好</item>
+        <item>一般</item>
+        <item>差劲</item>
+    </string-array>
+</resources>

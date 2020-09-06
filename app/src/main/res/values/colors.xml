@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="grey">#BDBDBD</color>
+    <color name="yellow">#fd9c06</color>
+    <color name="normal_btn_bg">#d195e9</color>
+    <color name="selected_btn_bg">#adc4ad</color>
+    <color name="sport_bg">#ff6eb958</color>
+    <color name="sport_button_normal">#6fba58</color>
+    <color name="sport_button_press">#ff6eb958</color>
+    <color name="write">#fff</color>
+    <color name="red">#f00</color>
+    <color name="blue_light">#0099ff</color>
+    <color name="recycler_default_bg">#f8f8fa</color>
+
+</resources>
